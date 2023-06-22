@@ -1,0 +1,117 @@
+*{
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+body{
+    display: grid;
+    /* text-align: center; */
+    grid-template-rows: 650px 200px 150px 200px 400px 300px 100px 300px 150px ;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.box1{
+    background-color: #e7dfdf;
+    /* background-image: url(img/couple1.jpg); */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    grid-column: 1/-1;
+    overflow: hidden;
+}
+header{
+    margin: 10px;
+    display: inline;
+    background-color: #ffffff00;
+}
+.box1 .logo {
+    background-color: #8a494900;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: inline;
+    margin: 15px;
+    float: left;
+}
+.box1 header .navbar{
+    background-color: #ffffff00;
+    margin-top: -20px;
+    margin-left: 65%;
+    
+}
+.box1 header .navbar ul{
+    background-color: #7e3a3a00;
+    display: flex;
+}
+.box1 header .navbar ul li{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background-color: #ffffff00;
+    padding: 10px;
+}
+.box1 header .navbar ul li a{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-style: bold;
+    border-radius: 20px;
+}
+.box1 header .navbar ul li a:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+.box1 img{
+    width: 825px;
+    margin: 0;
+    width: ;
+}
+.box1 .text{
+    width: 400px;
+    background-color: #ffffff00;
+}
+.
+
+
+
+
+
+.box2{
+    background-color: #5f3131;}
+.box3{
+    background-color: #963d3d;}
+.box4{
+    background-color: #680c0c;}
+.box5{
+    background-color: #751212;
+    grid-column: 1/-1;
+}
+.box6{
+    background-color: #fff;
+    grid-column: 1/-1;
+}
+.box7{
+    background-color: #1d7c10;
+    grid-column: 1/-1;
+}
+.box8{
+    background-color: #0f1786;
+    grid-column: 1/-1;
+}
+.box9{
+    background-color: #94b30d;
+    grid-column: 1/-1;
+}
+.box10{
+    background-color: #9e7c0e;
+    grid-column: 1/-1;
+}
+.box11{
+    background-color: #0d4244;
+    grid-column: 1/-1;
+}
